@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Home route
 @app.route('/')
 def home():
-    return "Welcome to Vinay's Flask App!"
+    return "Welcome to Rinay's Flask App!"
 
 # Example route with query parameter
 @app.route('/hello', methods=['GET'])
