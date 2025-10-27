@@ -13,7 +13,7 @@ def hello():
     name = request.args.get('name', 'Guest')
     return jsonify({
         'message': f'Hello, {name}!',
-        'status': 'success'
+        'status': 'failed'
     })
 
 # Health check route
